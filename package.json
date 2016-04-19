@@ -1,0 +1,35 @@
+{
+  "name": "fin-rounds",
+  "version": "0.1.0",
+  "description": "The implementation of wide range rounding algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "round",
+    "bank round",
+    "banking round",
+    "bank rounding",
+    "banking rounding",
+    "financial round",
+    "financial rounding",
+    "ceil",
+    "floor",
+    "random round",
+    "random rounding",
+    "stochastic",
+    "stochastic round",
+    "stochastic rounding",
+    "alternatingly",
+    "alternatingly round",
+    "alternatingly rounding",
+    "series",
+    "mathematical"
+  ],
+  "author": "Dmitry Scheglov <Dmitry.Scheglov@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
