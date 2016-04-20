@@ -13,7 +13,8 @@ describe('Round', function () {
       errorCoutch = true;
       assert.ok(err);
       assert.ok(err instanceof fin_round.RoundError);
-      assert.ok(err.message, 'Method "un_existing_method" is not registered as rounding algorithm');
+      assert.equal(err.name, 'RoundError');
+      assert.equal(err.message, 'Method "un_existing_method" is not registered as rounding algorithm');
     }
     assert.ok(errorCoutch);
     assert.ok(!round);
